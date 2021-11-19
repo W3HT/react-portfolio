@@ -3,7 +3,7 @@
 // import react
 import React from 'react';
 // import fontaswesome icons
-import { faGitHub, FaLinkedin} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitterSquare} from "react-icons/fa";
 // footer function
 function Footer() {
 
@@ -16,4 +16,37 @@ function Footer() {
     }
 
 // return code with jsx
+    return (
+        <footer className="footer">
+            <div className="container text-center">
+                {/* a link linkedin*/}
+                <a 
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                    href="https://www.linkedin.com/in/matthew-yang-5440a921b"
+                    target="_blank" rel="noreferrer">
+                        <FaLinkedin id="fotter-icons" />
+                </a>
+                {/* a link GitHub*/}
+                <a 
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                    href="https://github.com/W3HT"
+                    target="_blank" rel="noreferrer">
+                        <FaGithub id="fotter-icons" />
+                </a>
+                {/* a link Twitter*/}
+                <a 
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                    href="https://twitter.com/3MP_Y"
+                    target="_blank" rel="noreferrer">
+                        <FaTwitterSquare id="fotter-icons" />
+                </a>
+            </div>
+        </footer>
+
+    )
 }
+
+export default Footer;
