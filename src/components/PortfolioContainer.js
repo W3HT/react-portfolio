@@ -27,7 +27,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="mb-15">
       {/* // TODO: Add a comment describing what we are passing as props */}
       <Title/> 
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />

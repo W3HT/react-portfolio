@@ -2,7 +2,16 @@
 
 /* fonts */
 
-/* background picture */
+/* background picture. fixed center */
+body {
+    background: url('./images/titeBackgroundPhoto.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 20px;
+    height: 1500px;
+}
 
 /* title styling */
 
