@@ -8,11 +8,11 @@ export default function AboutMe() {
       <div className="row mt-3">
         
         
-        <div className="col-sm-12 col-lg-5 ">
+        <div className="col-sm-12 col-lg-5">
           <div >
             <img src={DislplayPhoto} alt="My Profile picuture"
               style={{
-                width: "200px",
+                width: "600px",
                 height: "auto",
                 display: "block",
                 marginLeft: "auto",
@@ -26,9 +26,9 @@ export default function AboutMe() {
       
       
       
-        <div className="col-sm-12 col-lg-7">
+        <div className="col-sm-12 col-lg-7 shadow-lg rounded">
           <div className="card m-1">
-            <div className="card-body justify-content-start">
+            <div className="card-body justify-content-end">
               <h2 className="welcome-text text-center"> Hello, Welcome to my spot!</h2>
                 <div className="welcome-text line-space">
                   <p><u>Before:</u></p>

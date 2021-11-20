@@ -17,11 +17,11 @@ export default function Portfolio() {
         </div>
       </div> */}
 
-      <div className="row d-flex justify-content-center">
-        <div className="col-sm-12 col-lg-5">
-          <div className="card m-1">
-            <div className="card-body">
-              <h3 className="welcome-text text-center">My Projects!</h3>
+      <div className="row d-flex justify-content-center ">
+        <div className="col-sm-12 col-lg-5 ">
+          <div className="card m-1 shadow-lg p-3 mb-5 bg-body rounded">
+            <div className="card-body ">
+              <h3 className="welcome-text text-center shadow-text">My Projects!</h3>
             </div>
           </div>
         </div>
@@ -30,17 +30,22 @@ export default function Portfolio() {
       <div className="row d-flex justify-content-center">
 
         {/* <div className="col-sm-12 col-lg-10"> */}
-          <div className="card m-5 col-sm-10  col-lg-6 ">
+          <div className="card m-5 col-sm-10  col-lg-6 shadow-lg p-3 mb-5 bg-body rounded ">
             <img
               src={HtmlPortfolio}
               atl="picture of my HTML Portfolio website"
             />
             <div className="card-body">
             <a href="https://w3ht.github.io/Portfolio/">
-              <h4 className="welcome-text text-center card-title">
+              <h3 className="welcome-text text-center card-title">
                 {" "}
                 HTML Portfolio{" "}
-              </h4></a>
+              </h3></a>
+              <a href="https://github.com/W3HT/Portfolio">
+              <h3 className="welcome-text text-center card-title">
+                {" "}
+                Git Repo{" "}
+              </h3></a>
               <ul className="card-text">
               <li>HTML</li>
                 <li>Git</li>
@@ -52,17 +57,22 @@ export default function Portfolio() {
         {/* </div> */}
 
         {/* <div className="col-sm-12 col-lg-10"> */}
-          <div className="card m-5 col-sm-10  col-lg-6 ">
+          <div className="card m-5 col-sm-10  col-lg-6 shadow-lg p-3 mb-5 bg-body rounded">
             <img
               src={PasswordGenerator}
               atl="picture of my Password Generator app"
             />
             <div className="card-body">
               <a href="https://w3ht.github.io/password_generator/">
-              <h4 className="welcome-text text-center card-title">
+              <h3 className="welcome-text text-center card-title">
                 {" "}
                 Password Generator{" "}
-              </h4></a>
+              </h3></a>
+              <a href="https://github.com/W3HT/password_generator">
+              <h3 className="welcome-text text-center card-title">
+                {" "}
+                Git Repo{" "}
+              </h3></a>
               <ul className="card-text">
                 <li>HTML</li>
                 <li>Git</li>
@@ -74,14 +84,19 @@ export default function Portfolio() {
         {/* </div> */}
 
         {/* <div className="col-sm-12 col-lg-10"> */}
-          <div className="card m-5 col-sm-10  col-lg-6 ">
+          <div className="card m-5 col-sm-10  col-lg-6 shadow-lg p-3 mb-5 bg-body rounded">
             <img src={Planner} atl="picture of my Workday Planner app" />
             <div className="card-body">
               <a href="https://w3ht.github.io/planner/">
-                <h4 className="welcome-text text-center card-title">
+                <h3 className="welcome-text text-center card-title">
                 {" "}
                 Workday Planner{" "}
-              </h4></a>
+              </h3></a>
+              <a href="https://github.com/W3HT/planner">
+                <h3 className="welcome-text text-center card-title">
+                {" "}
+                Git Repo{" "}
+              </h3></a>
               <ul className="card-text">
                 <li>HTML</li>
                 <li>Git</li>
@@ -93,14 +108,19 @@ export default function Portfolio() {
         {/* </div> */}
 
         {/* <div className="col-sm-12 col-lg-10"> */}
-          <div className="card m-5 col-sm-10  col-lg-6 ">
+          <div className="card m-5 col-sm-10  col-lg-6 shadow-lg p-3 mb-5 bg-body rounded">
             <img src={Unicorn} atl="picture of my group project unicornbooks " />
             <div className="card-body">
               <a href="https://unicornbooks.herokuapp.com/">
-                <h4 className="welcome-text text-center card-title">
+                <h3 className="welcome-text text-center card-title">
                 {" "}
                 Unicorn Books{" "}
-              </h4></a>
+              </h3></a>
+              <a href="https://github.com/Cygnet717/UnicornBooks">
+                <h3 className="welcome-text text-center card-title">
+                {" "}
+                Unicorn Books{" "}
+              </h3></a>
               <ul className="card-text">
                 <li>HTML</li>
                 <li>Git</li>
@@ -112,14 +132,19 @@ export default function Portfolio() {
         {/* </div> */}
 
         {/* <div className="col-sm-12 col-lg-10"> */}
-          <div className="card m-5 col-sm-10  col-lg-6 ">
+          <div className="card m-5 col-sm-10  col-lg-6 shadow-lg p-3 mb-5 bg-body rounded">
             <img src={Fitness} atl="picture of my Fitness Tracker app" />
             <div className="card-body">
               <a href="https://w3ht-workout-tracker.herokuapp.com/">
-                <h4 className="welcome-text text-center card-title">
+                <h3 className="welcome-text text-center card-title">
                 {" "}
                 Fitness Tracker{" "}
-              </h4></a>
+              </h3></a>
+              <a href="https://github.com/W3HT/workout-tracker">
+                <h3 className="welcome-text text-center card-title">
+                {" "}
+                Git Repo{" "}
+              </h3></a>
               <ul className="card-text">
                 <li>HTML</li>
                 <li>Git</li>
@@ -132,14 +157,19 @@ export default function Portfolio() {
         {/* </div> */}
 
         {/* <div className="col-sm-12 col-lg-10"> */}
-          <div className="card m-5 col-sm-10  col-lg-6 card-bottom">
+          <div className="card m-5 col-sm-10  col-lg-6 card-bottom shadow-lg p-3 mb-5 bg-body rounded">
             <img src={Budget} atl=" picture of my Budget Planner app" />
             <div className="card-body">
               <a href="https://w3ht-budget-tracker.herokuapp.com/">
-                <h4 className="welcome-text text-center card-title">
+                <h3 className="welcome-text text-center card-title">
                 {" "}
                 Offline Budget Planner{" "}
-              </h4></a>
+              </h3></a>
+              <a href="https://github.com/W3HT/budget-tracker">
+                <h3 className="welcome-text text-center card-title">
+                {" "}
+                Git Repo{" "}
+              </h3></a>
               <ul className="card-text">
                 <li>HTML</li>
                 <li>Git</li>

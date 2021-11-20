@@ -1,8 +1,10 @@
 import React from 'react';
-import Form from './components/Form/index';
+import Form from '../Form/index'
+import ContactPhoto from '../Form/contactPhoto';
 
-function App() {
-  return <Form />;
+function Contact() {
+    return <Form />;
+        <ContactPhoto />
 }
 
-export default App;
+export default Contact;
