@@ -4,10 +4,12 @@ import React from 'react';
 
 function Title() {
     return (
-        <div className="text-warning bg-dark" style={{display: 'flex', justifyContent:'center', alignItems:'center'}}>
-            <h1 className="headTitle align-center">
-                Matthew P Yang
-            </h1>
+        <div className="title">
+            <div className="title" style={{display: 'flex', justifyContent:'center', alignItems:'center'}}>
+                <h1 className="headTitle align-center">
+                    Matthew P Yang
+                </h1>
+            </div>
         </div>
     )
 };
