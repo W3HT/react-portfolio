@@ -25,7 +25,7 @@ function Footer() {
                     onMouseLeave={handleMouseLeave}
                     href="https://www.linkedin.com/in/matthew-yang-5440a921b"
                     target="_blank" rel="noreferrer">
-                        <FaLinkedin id="fotter-icons" />
+                        <FaLinkedin id="footer-icons" />
                 </a>
                 {/* a link GitHub*/}
                 <a 
@@ -33,7 +33,7 @@ function Footer() {
                     onMouseLeave={handleMouseLeave}
                     href="https://github.com/W3HT"
                     target="_blank" rel="noreferrer">
-                        <FaGithub id="fotter-icons" />
+                        <FaGithub id="footer-icons" />
                 </a>
                 {/* a link Twitter*/}
                 <a 
@@ -41,7 +41,7 @@ function Footer() {
                     onMouseLeave={handleMouseLeave}
                     href="https://twitter.com/3MP_Y"
                     target="_blank" rel="noreferrer">
-                        <FaTwitterSquare id="fotter-icons" />
+                        <FaTwitterSquare id="footer-icons" />
                 </a>
             </div>
         </footer>
