@@ -21,7 +21,7 @@ export default function Portfolio() {
         <div className="col-sm-12 col-lg-5 ">
           <div className="card m-1 shadow-lg p-3 mb-5 bg-body rounded">
             <div className="card-body ">
-              <h3 className="welcome-text text-center shadow-text">My Projects!</h3>
+              <h2 className="welcome-text text-center shadow-text">My Projects!</h2>
             </div>
           </div>
         </div>

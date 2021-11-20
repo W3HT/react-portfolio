@@ -4,7 +4,7 @@ import ContactPhoto from '../Form/contactPhoto';
 
 function Contact() {
     return <Form />;
-        <ContactPhoto />
+        
 }
 
 export default Contact;

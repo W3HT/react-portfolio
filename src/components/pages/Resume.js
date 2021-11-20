@@ -1,5 +1,5 @@
 import React from 'react';
-// import DislplayPhoto from '../../images/profilePicture.jpg'
+import DislplayPhoto from '../../images/profilePicture.jpg'
 import MyResume from '../../images/resume.png'
 
 
@@ -32,7 +32,7 @@ export default function Resume() {
                 display: "block",
                 marginLeft: "auto",
                 marginRight: "auto",
-                marginBottom: "100px",
+                marginBottom: "200px",
                 border: "2px solid black",
                 boxShadow: "10px whitesmoke"}}
               
