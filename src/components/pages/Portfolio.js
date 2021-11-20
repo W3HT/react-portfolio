@@ -2,7 +2,7 @@ import React from "react";
 import HtmlPortfolio from "../../images/htmlPortfolio.png";
 import PasswordGenerator from "../../images/passGen.png";
 import Planner from "../../images/workdayPlanner.png";
-import TechBlog from "../../images/techBlog.png";
+import Unicorn from "../../images/unicornbooks.png";
 import Fitness from "../../images/fitnessTracker.png";
 import Budget from "../../images/budgetTracker.png";
 
@@ -42,9 +42,10 @@ export default function Portfolio() {
                 HTML Portfolio{" "}
               </h4></a>
               <ul className="card-text">
-                <li>HTML</li>
+              <li>HTML</li>
                 <li>Git</li>
-                <li>CSS</li>
+                <li>Advance Css:</li>
+                <li>Media Query, Flexbox, Advance Box Styling, CSS Selectors, Responsive Design</li>
               </ul>
             </div>
           </div>
@@ -66,6 +67,7 @@ export default function Portfolio() {
                 <li>HTML</li>
                 <li>Git</li>
                 <li>CSS</li>
+                <li>JavaScript, Media Query, Flexbox, Advance Box Styling, CSS Selectors, Responsive Design</li>
               </ul>
             </div>
           </div>
@@ -84,6 +86,7 @@ export default function Portfolio() {
                 <li>HTML</li>
                 <li>Git</li>
                 <li>CSS</li>
+                <li>JavaScript, Scripts, Variables, Arrays, Methods, Objects, Iterations, Functions, Scoping</li>
               </ul>
             </div>
           </div>
@@ -91,17 +94,18 @@ export default function Portfolio() {
 
         {/* <div className="col-sm-12 col-lg-10"> */}
           <div className="card m-5 col-sm-10  col-lg-6 ">
-            <img src={TechBlog} atl="picture of my Tech Blog " />
+            <img src={Unicorn} atl="picture of my group project unicornbooks " />
             <div className="card-body">
-              <a href="https://w3ht-tech-blog.herokuapp.com/">
+              <a href="https://unicornbooks.herokuapp.com/">
                 <h4 className="welcome-text text-center card-title">
                 {" "}
-                Tech Blog{" "}
+                Unicorn Books{" "}
               </h4></a>
               <ul className="card-text">
                 <li>HTML</li>
                 <li>Git</li>
                 <li>CSS</li>
+                <li>Javascript, Handlebars, Middleware, REST, Cookies, NodeJS, OOP, Express, SQL, ORM, MVC, Modularization, NPM, Inquirer, Arrow Functions, Asyncrhonous JavaScript, </li>
               </ul>
             </div>
           </div>
@@ -120,6 +124,8 @@ export default function Portfolio() {
                 <li>HTML</li>
                 <li>Git</li>
                 <li>CSS</li>
+                <li>JavaScript, NoSQL, MongoDB, Object-document mapping, Mongoose.js, CRUD
+                </li>
               </ul>
             </div>
           </div>
@@ -132,12 +138,14 @@ export default function Portfolio() {
               <a href="https://w3ht-budget-tracker.herokuapp.com/">
                 <h4 className="welcome-text text-center card-title">
                 {" "}
-                Budget Planner{" "}
+                Offline Budget Planner{" "}
               </h4></a>
               <ul className="card-text">
                 <li>HTML</li>
                 <li>Git</li>
                 <li>CSS</li>
+                <li>JavaScript, Lighthouse, PWAs, Webpack, Mongo Atlas</li>
+                
               </ul>
             </div>
           </div>
