@@ -1,5 +1,6 @@
 /* coolors */
 /* CSS HEX */
+:root {
 --cultured: #F8F9FBff;
 --steel-teal: #5F7B7Fff;
 --silver-sand: #C5D0D2ff;
@@ -8,9 +9,11 @@
 --white-2: #FEFFFFff;
 --xanadu: #718077ff;
 
+}
+
 /* fonts */
 */ {
-    font-family: fantasy, Times, serif, , sans-serif !important;
+    font-family: fantasy, Times, serif, sans-serif !important;
 }
 /* background picture. fixed center */
 body {
