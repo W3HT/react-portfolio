@@ -28,7 +28,12 @@ body {
     text-shadow:whitesmoke 2px 2px !important;
 
 }
-
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
 .shadow-text {
     color: gray;
     text-shadow:
@@ -85,7 +90,8 @@ body {
 
 /* FontAwesome #footer-icon */
 #footer-icons {
-    color: red;
+    text-align: center !important;
+    color: blue;
     font-size: 4em;
     padding: 10px
 }

@@ -18,7 +18,7 @@ function Footer() {
 // return code with jsx
     return (
         <footer className="footer">
-            <div className="container text-center">
+            <div className="container text-center justify-content-center">
                 {/* a link linkedin*/}
                 <a 
                     onMouseEnter={handleMouseEnter}

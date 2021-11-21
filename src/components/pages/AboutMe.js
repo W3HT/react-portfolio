@@ -5,14 +5,16 @@ import DislplayPhoto from '../../images/profilePicture.jpg'
 export default function AboutMe() {
   return (
     <div>
-      <div className="row mt-3">
+      <div className="row flex-container mt-3 ml-3">
         
-        
+      {/* <div className="col-sm-12 col-lg-5 shadow-lg rounded">
+          <div className="card m-1">
+            <div className="card-body justify-content-start"> */}
         <div className="col-sm-12 col-lg-5">
-          <div >
+          <div className="card-body justifty-content-center">
             <img src={DislplayPhoto} alt="My Profile picuture"
               style={{
-                width: "600px",
+                width: "400px",
                 height: "auto",
                 display: "block",
                 marginLeft: "auto",
@@ -23,10 +25,10 @@ export default function AboutMe() {
                 />
           </div>
         </div>
+      {/* </div> */}
       
       
-      
-        <div className="col-sm-12 col-lg-7 shadow-lg rounded">
+        <div className="col-sm-12 col-lg-5 shadow-lg rounded">
           <div className="card m-1">
             <div className="card-body justify-content-end">
               <h2 className="welcome-text text-center"> Hello, Welcome to my spot!</h2>
@@ -37,6 +39,7 @@ export default function AboutMe() {
                   <p>Student University of Minnesota</p>
                   <p><u>Future:</u></p>
                   <p>Software Developer</p>
+                  <p></p> <p></p>
                 </div>
           </div>         
         </div>
