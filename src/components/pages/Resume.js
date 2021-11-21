@@ -6,7 +6,7 @@ export default function Resume() {
   return (
     <div>
       <div className="mt-5">
-      <div className="row d-flex justifty-content-center">
+      <div className="row flex-container d-flex justifty-content-center">
         <div className="col-sm-12 col-lg-12 text-center">
           <a href="https://drive.google.com/file/d/1vVXl1YRGgRODMTg0nuJ7wfu144BEvox3/view?usp=sharing">
             Download Expanded Resume Here
@@ -17,12 +17,13 @@ export default function Resume() {
           <div className="col-sm-12 col-lg-12">
             <div>
               <img
+                className="file-image"
                 src={MyResume}
                 alt="My Resume picuture"
                 style={{
                   width: "auto",
                   height: "auto",
-                  display: "block",
+                  display: "flex",
                   marginLeft: "auto",
                   marginRight: "auto",
                   marginBottom: "200px",

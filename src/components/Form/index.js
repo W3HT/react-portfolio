@@ -33,7 +33,7 @@ export default function Form() {
         }
     }
     return (
-        <div className="row mt-5 d-flex justify-content-center">
+        <div className="row mt-5 d-flex justify-content-center mb-5">
         <div className="col-sm-12 col-lg-5">
           <div className="card m-1">
             <div className="card-body">
@@ -66,7 +66,7 @@ export default function Form() {
     </div>
 
 
-        <div className="justify-content-center">
+        <div className="justify-content-center mb-5">
           
           <form className="form">
             <input

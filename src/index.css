@@ -22,7 +22,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 1000px;
+    height: 1200px;
 }
 .plain-text {
     text-shadow:whitesmoke 2px 2px !important;
@@ -33,7 +33,10 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  
+.blog-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
 .shadow-text {
     color: gray;
     text-shadow:
@@ -109,19 +112,22 @@ body {
     padding: 0px 0px 50px 0px;
     
 }
-
+.file-image{
+    object-fit: contain;
+    max-width:100%;
+    }
 /* media queries max-width 768px/tabs-desktop */
 
 @media screen and (max-width: 768px) {
     body {
-        height: 1500px;
+        height: 2000px !important;
     }
 }
 
 /* media queries max-widet 400px/mobile */
 @media Screen and (max-width: 400px){
     body {
-        height: 300 px
+        height: 1500px !important
     }
     #footer-icons {
         font-size: 3em;

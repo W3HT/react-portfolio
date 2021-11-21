@@ -31,7 +31,7 @@ export default function Portfolio() {
 
       <div className="row d-flex justify-content-center">
         {/* <div className="col-sm-12 col-lg-10"> */}
-        <div className="card m-5 col-sm-10  col-lg-6 shadow-lg p-3 mb-5 bg-body rounded ">
+        <div className="card m-5 col-sm-12 col-lg-6 shadow-lg p-3 mb-5 bg-body rounded ">
           <img src={HtmlPortfolio} atl="picture of my HTML Portfolio website" />
           <div className="card-body">
             <a href="https://w3ht.github.io/Portfolio/">
@@ -180,7 +180,7 @@ export default function Portfolio() {
         {/* </div> */}
 
         {/* <div className="col-sm-12 col-lg-10"> */}
-        <div className="card m-5 col-sm-10  col-lg-6 card-bottom shadow-lg p-3 mb-5 bg-body rounded">
+        <div className="card m-5 mb-5 col-sm-10  col-lg-6 card-bottom shadow-lg p-3 bg-body rounded">
           <img src={Budget} atl=" picture of my Budget Planner app" />
           <div className="card-body">
             <a href="https://w3ht-budget-tracker.herokuapp.com/">

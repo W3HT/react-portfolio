@@ -30,7 +30,7 @@ export default function PortfolioContainer() {
 
   return (
     // <div style={{ backgroundImage:`url(${image})`}}
-      <div className="mb-15">
+      <div className="mb-5">
         {/* // TODO: Add a comment describing what we are passing as props */}
         <Title/> 
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
