@@ -42,26 +42,32 @@ export default function Form() {
             <div className="row mt-3">
           
           
-          <div className="col-sm-12 col-lg-5">
-            <div >
+          <div className="col-sm-12 col-lg-12 justift-content-center">
+            <h3 className="welcome-text text-center">
+                Let's Link up!</h3>
+              <div className="row d-flex">
               <img src={ContactPic} alt="My Profile picuture"
                 style={{
-                  width: "600px",
+                  width: "750px",
                   height: "auto",
                   display: "block",
                   marginLeft: "20",
                   marginRigth: "0",
-                  border: "2px solid black",
+                  border: ".5px solid black",
                   boxShadow: "10px whitesmoke"}}
                 
                   />
-            </div>
+                   <h3 className="welcome-text text-center">
+                      Drop me a message down below: </h3>            
+                  </div>
+                  </div>
           </div>
         </div>
     </div>
 
 
-        <div>
+        <div className="justify-content-center">
+          
           <form className="form">
             <input
               value={email}
@@ -95,7 +101,7 @@ export default function Form() {
         </div>
         </div>
           </div>
-        </div>
+      
       
 
       
