@@ -1,5 +1,4 @@
 import React from "react";
-import DislplayPhoto from "../../images/profilePicture.jpg";
 import MyResume from "../../images/resume.png";
 
 export default function Resume() {
