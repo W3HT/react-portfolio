@@ -133,7 +133,7 @@ export default function Portfolio() {
             <a href="https://github.com/Cygnet717/UnicornBooks">
               <h3 className="welcome-text text-center card-title">
                 {" "}
-                Unicorn Books{" "}
+                Git Repo{" "}
               </h3>
             </a>
             <ul className="card-text">
